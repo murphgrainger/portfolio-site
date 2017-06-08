@@ -1,0 +1,141 @@
+<div class="jumbotron">
+  <!-- <video playsinline autoplay muted loop id="bgvid">
+    <source src="../videos/jumbotronvideo.MP4" type="video/mp4">
+  </video> -->
+  <!-- <img class="jumbotron-image" src="../images/redsky_background.jpg"/> -->
+  <div class="header-row">
+    <img id="logo" src="../images/MG-Logo.png" alt="">
+    <div class="buttons">
+      <md-button class="contact" aria-label="Projects" ng-click="$ctrl.goToProjects()">
+        Work
+      </md-button>
+      <md-button class="contact icons" md-icon-button ng-href="https://github.com/murphgrainger" target="_blank">
+        <md-icon md-font-icon="fa-github" class="fa fa-4 contact-icon"></md-icon>
+      </md-button>
+      <md-button class="contact icons" md-icon-button ng-href="https://www.linkedin.com/in/murphgrainger/" target="_blank">
+        <md-icon md-font-icon="fa-linkedin" class="fa fa-4 contact-icon"></md-icon>
+      </md-button>
+    </div>
+  </div>
+</div>
+<md-content class="about section" id="about">
+  <h2>My name is Murph.</h2>
+  <p>I'm a web developer, tinkerer, golfer, doer, skier, organizer, videographer, barbequer, and always looking for a new adventure. I believe in a balance between efficiency and exploration. My motto: work hard but work smart.
+  </p>
+</md-content>
+<md-content class="md-padding" layout-xs="column" layout-sm="column" layout-md="row" layout-lg="row" layout-xl="row" flex-wrap layout-align="center center" id="projects">
+  <div flex-gt-sm="40">
+    <md-card>
+      <img ng-src="/images/mockupFINAL.jpg" class="md-card-image" alt="Washed Out">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">Urban Wagon</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <p>
+          Pioneer the modern social setting with this mobile app that gamifies meeting people. Complete tasks, overcome hardships, and progress down today's Oregon Trail.
+        </p>
+        <p class="technologies">
+          Ionic 2, AngularJS, TypeScript, SASS, Node.js, Express, Objection.js, Knex.js, Postgres</p>
+      </md-card-content>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button class="md-icon-button" aria-label="Github" href="https://github.com/murphgrainger/Urban-Wagon" target="_blank">
+          <md-tooltip md-direction="bottom">Code</md-tooltip>
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="Share" href="https://www.youtube.com/watch?v=LS9AJ_vmN8I" target="_blank">
+          <md-tooltip md-direction="bottom">Video Demo</md-tooltip>
+          <i class=" fa fa-video-camera fa-2x" aria-hidden=" true"></i>
+        </md-button>
+        <md-button href="https://itunes.apple.com/us/app/urban-wagon/id1218891620?ls=1&mt=8" target="_blank">
+          View On App Store</md-button>
+      </md-card-actions>
+    </md-card>
+    <md-card>
+      <img ng-src="/images/johnny.png" class="md-card-image" alt="Washed Out">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">Johnny Four</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <p>
+          Experience life through the eyes of a robot. Johnny Four is a Raspberry Pi-powered spy-bot drivable with keyboard controls while seeing live streaming video.
+        </p>
+        <p class="technologies">
+          Raspberry Pi, AngularJS, Node.js, Express, Johnny Five, Socket.io, Knex.js, Postgres, h264 Live Streamer, Broadway.js</p>
+      </md-card-content>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button class="md-icon-button" aria-label="Github" href="https://github.com/Johnny-Four/johnny-ssr" target="_blank">
+          <md-tooltip md-direction="bottom">Code</md-tooltip>
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="Share" href="https://www.youtube.com/watch?v=n_1Qv6dOwUs&t=28s" target="_blank">
+          <md-tooltip md-direction="bottom">Video Demo</md-tooltip>
+          <i class=" fa fa-video-camera fa-2x" aria-hidden=" true"></i>
+        </md-button>
+        <md-button href="https://johnny-four.firebaseapp.com/" target="_blank">View Demo Site</md-button>
+      </md-card-actions>
+    </md-card>
+  </div>
+  <div flex-gt-sm="40">
+    <md-card>
+      <img ng-src="../images/lw2.png" class="md-card-image" alt="Washed Out">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">LineWaiter
+          </span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <p>
+          Pay someone else to wait in line for you. Whether it's Sunday brunch at Snooze or Friday afternoon at the DMV, request a time and place and skip the line!
+        </p>
+        <p class="technologies">JavaScript ES6, jQuery, AJAX, Google Maps API, Node.js, Express, Knex.js, Postgres, Handlebars.js, CSS/Bootstrap</p>
+      </md-card-content>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button class="md-icon-button" aria-label="Github" href=" https://github.com/line-waiter/waiter-client" target="_blank">
+          <md-tooltip md-direction="bottom">Code</md-tooltip>
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="Share" href="https://www.youtube.com/watch?v=R20u4MGYQ7s" target="_blank">
+          <md-tooltip md-direction="bottom">Video Demo</md-tooltip>
+          <i class=" fa fa-video-camera fa-2x" aria-hidden=" true"></i>
+        </md-button>
+        <md-button href="https://line-waiter.firebaseapp.com/" target="_blank">Open App</md-button>
+      </md-card-actions>
+    </md-card>
+    <md-card>
+      <img ng-src="../images/gnp5.png" class="md-card-image" alt="Washed Out">
+      <md-card-title>
+        <md-card-title-text>
+          <span class="md-headline">Golf New Places</span>
+        </md-card-title-text>
+      </md-card-title>
+      <md-card-content>
+        <p>
+          Stop repeatedly playing the same course. GNP simplifies your search to find new courses to play by filtering public/private, region, and distance.
+        </p>
+        <p class="technologies">JavaScript ES6, jQuery, AJAX, CSS/Materialize, Google Geocoding API, Google Places API, Swing by Swing API</p>
+      </md-card-content>
+      <md-card-actions layout="row" layout-align="end center">
+        <md-button class="md-icon-button" aria-label="Github" href="https://github.com/murphgrainger/Golf-New-Places-Angular-FE" target="_blank">
+          <md-tooltip md-direction="bottom">Code</md-tooltip>
+          <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+        </md-button>
+        <md-button class="md-icon-button" aria-label="Share" href="https://www.youtube.com/watch?v=o2oTEgEFpXI&feature=youtu.be" target="_blank">
+          <md-tooltip md-direction="bottom">Video Demo</md-tooltip>
+          <i class=" fa fa-video-camera fa-2x" aria-hidden=" true"></i>
+        </md-button>
+        <md-button href="https://golf-new-places-ng.firebaseapp.com/" target="_blank">Open App</md-button>
+      </md-card-actions>
+    </md-card>
+  </div>
+</md-content>
+<footer>
+  <md-toolbar layout="row" layout-align="center center">
+    <small>&copy; 2017 | Murph Grainger</small>
+  </md-toolbar>
+</footer>
+</md-content>

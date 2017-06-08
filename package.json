@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "lite-server"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "gitignore": "^0.6.0",
+    "lite-server": "^2.2.2",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
