@@ -3,7 +3,7 @@
 
     angular.module('app').config(config)
 
-    function config($stateProvider, $urlRouterProvider, $locationProvider, $mdThemingProvider) {
+    function config($stateProvider, $urlRouterProvider, $locationProvider, $mdThemingProvider, $analyticsProvider) {
 
         $locationProvider.html5Mode(true)
 
